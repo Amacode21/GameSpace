@@ -63,7 +63,12 @@ this.Direction = function(Arrow){
  this.FoodSnake = function(fruit){
     if(this.y === fruit.x && this.x === fruit.y){
         this.total++;
-        speed -= 10;
+        if (speed > 0){
+            speed -= 10;
+        }else{
+            speed = 10;
+        }
+        
         return true;
     }
     return false;   
