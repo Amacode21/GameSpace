@@ -79,6 +79,7 @@ this.CollisionCheck = function(){
             this.total = 0;
             this.tail = [];
             alert('Game Over');
+            speed = 200;
             fruit.FruitLocation();
         }
     }
