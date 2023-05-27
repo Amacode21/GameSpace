@@ -84,6 +84,7 @@ this.CollisionCheck = function(){
             Sound = document.querySelector('.Sound0');
             Sound.currenTime = 0;
             Sound.play();
+            this.life = 100;
             this.Track(document.querySelector('.HighScore').innerText);
             this.tail = [];
             speed = 200;
