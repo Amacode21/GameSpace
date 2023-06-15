@@ -1,0 +1,102 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1122628/pexels-photo-1122628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+   }
+   .container {
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 50px auto;
+    background-color: rgba( 211,211,211, 50%);
+    padding: 2rem;
+    position: relative;
+  
+   }
+   .clock {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-3px);
+    
+   }
+   .Hand {
+    position: absolute;
+    top: 50%;
+    height: 6px;
+    width: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.71, 0.28, 1);
+   }
+   .Circle{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    background-color: gainsboro;
+    border-radius: 50%;
+    right: 45%;
+    border:2px solid black;
+    transform: translateY(150px);
+   }
+   .hourHand {
+    background-color:  #077b8a; 
+   }
+   .minHand {
+    background-color: #a2d5c6; 
+   }
+   .secHand {
+    background-color: #d72631;
+   }
+   .timeClock{
+    display: flex;
+    height: 200px;
+    border:1px solid black;
+    flex:1;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba( 211,211,211, 50%);
+   }
+   .timeClock .timeName{
+    font-size: 20px;
+   }
+   .Time{
+     font-size: 80px;
+   }
+   .hour{
+    background-color:  #077b8a; 
+   }
+   .minute{
+    background-color: #a2d5c6; 
+   }
+   .seconds{
+    background-color: #d72631;
+   }
+   .hour, .seconds, .minute{
+    padding:20px 20px 0px 20px;
+    text-align: center;
+    border-radius: 10px;
+   }
+   .Divider{
+    font-size: 50px;
+   }
+   .heroContainer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+   }
