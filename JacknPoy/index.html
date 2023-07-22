@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/icon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Option">
+      <ul class="list-level">
+        <li class="list-item">Hard</li>
+        <li class="list-item">Easy</li>
+        <li class="list-item">God Level</li>
+      </ul>
+    </div>
+
+    <div class="Menu">
+      <button class="menu-btn"><i class="fa-solid fa-gear fa-2x"></i></button>
+    </div>
+
+    <div class="Mode-Switch">
+      <button class="LightDark-Mode">
+        <i class="fa-solid fa-toggle-on fa-3x"></i>
+      </button>
+    </div>
+    <div class="Hero">
+      <div class="Arena">
+        <div class="Label">
+          <i class="fa-solid fa-user fa-2x"></i>
+          <h3>Player</h3>
+          <h3>Computer</h3>
+          <i class="fa-solid fa-robot fa-2x"></i>
+        </div>
+        <div class="AttackPlayer">
+          <i class="fa-solid fa-hand fa-rotate-10 fa-5x"></i>
+        </div>
+        <div class="AttackComputer">
+          <i class="fa-solid fa-hand fa-rotate-10 fa-5x"></i>
+        </div>
+      </div>
+      <div class="container">
+        <button class="player">
+          Rock <i class="fa-solid fa-hand-back-fist fa-rotate-10 fa-2x"></i>
+        </button>
+        <button class="player">
+          Paper <i class="fa-solid fa-hand fa-rotate-10 fa-2x"></i>
+        </button>
+        <button class="player">
+          Scissor <i class="fa-solid fa-hand-scissors fa-rotate-90 fa-2x"></i>
+        </button>
+      </div>
+
+      <div class="result">
+        <h3>Your Score : <span class="Player-Score">0</span></h3>
+        <br />
+        <h3>
+          Computer Score : <span class="Computer-Score" value="0">0</span>
+        </h3>
+      </div>
+      <div class="Mode">
+        <h2>Mode</h2>
+        <h3 class="gameMode">Easy</h3>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
