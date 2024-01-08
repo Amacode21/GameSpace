@@ -137,10 +137,10 @@ window.addEventListener("keydown", function (event) {
       Mode(GameMode , "Rock", cAttack);
       break;
     case "p":
-      Mode(GameMode , "Rock", cAttack);
+      Mode(GameMode , "Paper", cAttack);
       break;
     case "s":
-      Mode(GameMode , "Rock", cAttack);
+      Mode(GameMode , "Scissor", cAttack);
       break;
     default:
       "";
